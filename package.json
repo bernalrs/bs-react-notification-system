@@ -25,19 +25,21 @@
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "yarn run clean && yarn run build",
-    "format": "prettier --write ./*.{js,json} ./**/*.{js,json}"
+    "format": "prettier --write ./*.{js,json} ./**/*.{js,json}",
+    "release-it": "release-it"
   },
   "author": "Remi Bernal <bernal.rs@gmail.com>",
   "contributors": ["Remi Bernal <bernal.rs@gmail.com>"],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "react-notification-system": "0.2.16",
     "bs-platform": "2.0.0",
     "husky": "0.14.3",
     "lint-staged": "4.3.0",
     "prettier": "1.8.2",
-    "reason-react": "0.2.4"
+    "react-notification-system": "0.2.16",
+    "reason-react": "0.2.4",
+    "release-it": "^5.1.2"
   },
   "peerDependencies": {
     "react-notification-system": "0.2.16",
