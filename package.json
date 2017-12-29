@@ -1,6 +1,6 @@
 {
   "name": "bs-react-notification-system",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Reason bindings for react-notification-system",
   "main": "lib/js/src/ReactNotificationSystem.js",
   "keywords": [
@@ -29,9 +29,7 @@
     "release-it": "release-it"
   },
   "author": "Remi Bernal <bernal.rs@gmail.com>",
-  "contributors": [
-    "Remi Bernal <bernal.rs@gmail.com>"
-  ],
+  "contributors": ["Remi Bernal <bernal.rs@gmail.com>"],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
@@ -50,13 +48,7 @@
     "reason-react": "^0.2.4"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "prettier --write",
-      "git add"
-    ],
-    "src/**/*.re": [
-      "refmt --in-place",
-      "git add"
-    ]
+    "*.{js,json}": ["prettier --write", "git add"],
+    "src/**/*.re": ["refmt --in-place", "git add"]
   }
 }
