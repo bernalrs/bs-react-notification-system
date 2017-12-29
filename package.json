@@ -1,6 +1,6 @@
 {
   "name": "bs-react-notification-system",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reason bindings for react-notification-system",
   "main": "lib/js/src/ReactNotificationSystem.js",
   "keywords": [
